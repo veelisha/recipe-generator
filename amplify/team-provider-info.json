@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-recipegenerator-dev-e5adf-authRole",
+      "UnauthRoleArn": "arn:aws:iam::615299732180:role/amplify-recipegenerator-dev-e5adf-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::615299732180:role/amplify-recipegenerator-dev-e5adf-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-recipegenerator-dev-e5adf-deployment",
+      "UnauthRoleName": "amplify-recipegenerator-dev-e5adf-unauthRole",
+      "StackName": "amplify-recipegenerator-dev-e5adf",
+      "StackId": "arn:aws:cloudformation:ap-south-1:615299732180:stack/amplify-recipegenerator-dev-e5adf/852171f0-7b26-11ef-9292-066fefed7da3",
+      "AmplifyAppId": "div1swtuqnanq"
+    },
+    "categories": {
+      "hosting": {
+        "S3AndCloudFront": {}
+      },
+      "auth": {
+        "recipegenerator078d50ef": {}
+      },
+      "function": {
+        "recipegenerator3787ef87": {
+          "deploymentBucketName": "amplify-recipegenerator-dev-e5adf-deployment",
+          "s3Key": "amplify-builds/recipegenerator3787ef87-783266345775316e306e-build.zip"
+        }
+      },
+      "api": {
+        "recipegenerator": {}
+      }
+    }
+  }
+}
