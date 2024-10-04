@@ -9,6 +9,7 @@ Sign in to GitHub at https://github.com/.<br>
 In the Start a New Repository section, make the following selections:<br>
 For the Repository name, enter ai-recipe-generator, and choose the Public radio button.<br>
 Then select, Create a new repository.<br>
+
 Open a new terminal window, navigate to your projects root folder (ai-recipe-generator), and run the following commands to initialize a git and push of the application to the new GitHub repo:<br>
 git init <br>
 git add README.md <br>
@@ -22,6 +23,7 @@ npm create vite@latest ai-recipe-generator -- --template react-ts -y<br>
 cd ai-recipe-generator<br>
 npm install<br>
 npm run dev<br>
+
 Install Amplify Packages<br>
 Open a new terminal window, navigate to your app’s root folder (ai-recipe-generator), and run the following command:<br>
 npm create amplify@latest -y<br>
@@ -30,6 +32,7 @@ In your terminal window, run the following command to push the changes to GitHub
 git add .<br>
 git commit -m 'installing amplify'<br>
 git push origin main<br>
+
 Deploy App on Amazon Amplify<br>
 Sign in to the AWS Management console in a new browser window, and open the AWS Amplify console.<br>
 Choose Create new app. <br>
